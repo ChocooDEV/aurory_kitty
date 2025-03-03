@@ -1,4 +1,4 @@
-# Project Name
+# Aurory Kitty Seduction Game
 
 ## Description
 This is a very simple AI-Chat game where you must seduce Kitty, an Aurory Project character. The project was done for a mini-contest on [Twitter](https://x.com/ezdarod/status/1896234073397580084) 
