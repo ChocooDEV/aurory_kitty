@@ -54,7 +54,7 @@ This project is licensed under the MIT License with Attribution - see below for 
 
 MIT License
 
-Copyright (c) 2025 [ChocooDev]
+Copyright (c) 2023 [ChocooDev]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
