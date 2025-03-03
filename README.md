@@ -1,36 +1,78 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project Name
 
-## Getting Started
+## Description
+This is a very simple AI-Chat game where you must seduce Kitty, an Aurory Project character. The project was done for a mini-contest on [Twitter](https://x.com/ezdarod/status/1896234073397580084) 
 
-First, run the development server:
+## Installation
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. Clone the repository:
+   ```
+   git clone https://github.com/yourusername/your-repo.git
+   cd your-repo
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+   ```
+   npm install
+   ```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Set up environment variables:
+   - Create a `.env` file in the root directory
+   - Add your OpenAI API key (see configuration section below)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Configuration
 
-## Learn More
+### Setting up your OpenAI API Key
 
-To learn more about Next.js, take a look at the following resources:
+This project requires an OpenAI API key to function properly. Follow these steps to set it up:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. If you don't have an OpenAI API key, sign up at [OpenAI's website](https://platform.openai.com/signup) and create one
+2. Create a `.env` file in the root directory of the project
+3. Add your API key to the `.env` file in this format:
+   ```
+   OPENAI_API_KEY='your_api_key_here'
+   ```
+   Replace `your_api_key_here` with your actual OpenAI API key
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Important**: Never commit your `.env` file to version control. Make sure it's included in your `.gitignore` file.
 
-## Deploy on Vercel
+## Usage
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Simply run `npm run dev` and start to chat with Kitty
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Features
+
+Chat with an AI which acts as Kitty, a female AI character.
+
+## Contributing
+
+Every contribution to make the model better are very welcomed!
+
+## License
+
+This project is licensed under the MIT License with Attribution - see below for details:
+
+MIT License
+
+Copyright (c) 2025 [ChocooDev]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+Additionally, any project using this software must include visible attribution
+to the original author in their documentation and/or user interface.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
